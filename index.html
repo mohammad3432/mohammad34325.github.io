@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mohammad2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Mohammad Tayseer website </title>
+	</head>
+	
+<body>
+	
+	<button onclick="window.print()" >Print Mohammad's Resume</button>
+	  
+	<h2 class="name center" onClick="showMessage()" > Mohammad Tayseer Ahmed Al Khader </h2>
+
+<hr>
+	
+   <h2 style="color: red;background-color:powderred"> 
+   <b> Academic and practical background </b> </h2>
+
+	<p class="summary center"><b>A second-year computer science student at An-Najah National University, good experience in programming languages (C++, Java)  and in Video Montage. </b> </p>
+	
+<hr>
+	<div class="link">
+      <a class="link"  href="https://www.facebook.com/profile.php?id=100009084588356">Facebook Profile <br> </a> 
+	</div>
+<hr>
+	<div id="edu">
+<h2  class="center" style="color: red;background-color:powderred"> Educational background </h2>
+<p   class="center" id="a" style="color:blue;"> Classes 1- 9 , Abo Ali Mostafa elementary school</p>
+<p   class="center" id="b" style="color:blue;"> Classes 10- 12 , Abo Jehad High school</p>
+<p   class="center"  id="c" style="color:blue;"> Current , Major in Computer Science at An-Najah National University </p>
+	 </div>
+<hr>
+	<div  id="work" onmouseover="changec()" onMouseOut="changeo()">
+<h2 class="center"  style="color: red;background-color:powderred"> Work experience  </h2>
+<p  class="center"  style="color:blue;"> "Driving Trainer Program" During C++ 2 Course  </p>
+<p  class="center"  style="color:blue;"> "Car Rental Service Program" During Java Course  </p>
+<p  class="center"  style="color:blue;"> "Security System" During Data Structures Course  </p>
+	</div>
+<hr>
+	<div id="hob">
+<h2 class="center" style="color: red;background-color:powderred"> Hobbies </h2>
+	    <p class="center" style="color:blue;">1-Professional football player.</p>
+		<p class="center" style="color:blue;">2-Rapid thinking and problem solving.</p>
+		<p class="center" style="color:blue;">3-Reading other people's thoughts .</p>
+    </div>
+<hr>
+<img class="center" alt="Personal" src= "Personal Picture.jpeg" >
+<hr>
+</body>
+			
+</html>
+
+	<script type="text/javascript">
+			function showMessage(){
+				alert("Welcome to MOHAMMAD TAYSEER site, please let me know if you have any questions.");
+			}
+
+		</script>
+
+<script type="text/javascript">
+
+	function changec() 
+	{	
+					document.getElementById("a").style.color="green" ;
+					document.getElementById("b").style.color="green" ;
+					document.getElementById("c").style.color="green" ;
+	}
+	
+   function changeo()
+	{
+					document.getElementById("a").style.color="blue" ;
+					document.getElementById("b").style.color="blue" ;
+					document.getElementById("c").style.color="blue" ;
+	}
+
+</script>
+
